@@ -1,0 +1,216 @@
+
+h5 {
+  font-weight: 700;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #121212;
+  padding: 16px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.nav-logo {
+  margin: 14px;
+}
+
+.nav-library {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-library i, .nav-library p {
+  color: #B7B3B6;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-playlist, .nav-podcast {
+  background-color: #242424;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.nav-playlist button, .nav-podcast button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 6px 10px;
+  margin-top: 16px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.nav-playlist button, .nav-podcast button {
+    font-size: 12px;
+}
+
+.nav-footer {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-footer a {
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 16px;
+     margin: 8px 0;
+    margin-right: 14px;
+}
+
+.nav-lang-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 12px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+main {
+  padding: 24px;
+  flex-grow: 1; /*Serve pra avisar pra ele crescer no espaço disponível*/
+  overflow-y: auto; /*Scroll automático*/
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #242424;
+  padding: 12px 16px;
+  border-radius: 20px;
+  width: 500px;
+}
+
+.search-bar input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  width: 100%;
+  margin-left: 10px;
+  font-size: 18px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+}
+
+.artists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /*repetir(repete a mesma coisa pra todos os cards, minimo= 180px, maximo= 1fr)*/
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.albums-grid {
+  display: grid;
+  grid-auto-flow: column; /* Faz os cards irem para a direita, em vez de para baixo */
+  grid-auto-columns: 180px; /* Fixa a largura de cada card */
+  gap: 24px;
+  overflow-x: auto; /* Cria a barra de rolagem horizontal mágica! */
+  margin-bottom: 40px;
+  padding-bottom: 16px; /* Dá um espacinho para a barra de rolagem não cortar os cards */
+}
+
+.artist-card, .album-card {
+  background-color: #181818;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.artist-card:hover, .album-card:hover {
+  background-color: #282828;
+}
+
+.artist-card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.album-card img {
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+
+.artist-card h3, .album-card h3 {
+  font-size: 16px;
+}
+
+.artist-card p, .album-card p {
+  font-size: 14px;
+  color: #b7b3b6;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
+
+.banner {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(90deg, #AF2896, #509BF5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+}
+
+.banner h3 {
+  font-size: 10px;
+}
+
+.banner p {
+  font-size: 12px;
+}
+
+.banner button {
+  border-radius: 20px;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  font-weight: 600;
+  cursor: pointer;
+}

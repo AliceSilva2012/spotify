@@ -27,6 +27,16 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 
 ---
 
+## 🎤🎼 Exemplos de músicas
+
+| Música | Artista |
+| :--- | :--- |
+| Deixa Acontecer | Grupo Revelação |
+| Chess | Joyful |
+| Im Still Standing | Taron Egerton |
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica do player, barra lateral (*sidebar*), barra de pesquisa e áreas de conteúdo dinâmico.

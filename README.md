@@ -27,14 +27,15 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 
 ---
 
-## 🎤🎼 Exemplos de músicas
+## 🎵 Músicas em Destaque
+
+> Uma seleção especial de faixas locais carregadas dinamicamente na aplicação, prontas para teste e reprodução rápida.
 
 | Música | Artista |
 | :--- | :--- |
 | Deixa Acontecer | Grupo Revelação |
 | Chess | Joyful |
 | Im Still Standing | Taron Egerton |
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas

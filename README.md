@@ -26,13 +26,13 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 - **Busca Interativa de Músicas:** Sistema de pesquisa integrado na barra superior, acionado ao pressionar a tecla `Enter`.
 - **Integração com API Externa:** Consumo da API do iTunes utilizando `fetch` e requisições assíncronas (`async/await`) com tratamento de erros.
 - **Player de Prévia de Áudio:** Reprodução instantânea de trechos de áudio oficiais ao clicar em qualquer card de música ou álbum.
-- **Interface Fiel:** Layout inspirado no design moderno e escuro do Spotify, utilizando ícones via Iconify, flexbox, grids customizados e barra de rolagem horizontal.
+- **Interface Fiel:** Layout inspirado no design moderno e escuro do Spotify (Dark Mode), utilizando ícones via Iconify, flexbox, grids customizados e barra de rolagem horizontal.
 
 ---
 
 ## 🎵 Músicas em Destaque
 
-> Uma seleção especial de faixas locais carregadas dinamicamente na aplicação, prontas para teste e reprodução rápida.
+> Uma seleção especial de exemplificação de músicas carregadas dinamicamente no projeto a partir da iTunes API, prontas para teste e reprodução rápida.
 
 | Música | Artista |
 | :--- | :--- |

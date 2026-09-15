@@ -8,7 +8,7 @@
 > Uma aplicação web interativa inspirada no design do Spotify que consome dados locais e a API do iTunes para exibir álbuns, artistas populares e reproduzir prévias de músicas em tempo real.
 
 > [!NOTE]
-> **🚧 Projeto em Desenvolvimento:** Esta não é a versão final da aplicação. Novas funcionalidades, melhorias de design e ajustes de performance estão sendo implementados continuamente. 
+> **🚧 Projeto em Desenvolvimento:** Esta não é a versão final do projeto. Novas funcionalidades, melhorias de design e ajustes de performance estão sendo implementados continuamente. 
 
 ---
 

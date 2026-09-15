@@ -14,7 +14,7 @@
 
 ## 💻 Sobre o Projeto
 
-O **Spotify Hub** é um projeto front-end que simula a interface e a experiência de usuário da plataforma de streaming do Spotify. A aplicação renderiza dinamicamente listas de artistas e álbuns utilizando JavaScript Vanilla, permitindo a exploração de conteúdos musicais e a busca interativa por novas faixas diretamente na interface.
+O **Spotify Hub** é um projeto front-end que simula a interface e a experiência de usuário da plataforma de música Spotify. A aplicação renderiza dinamicamente listas de artistas e álbuns utilizando JavaScript Vanilla, permitindo a exploração de conteúdos musicais e a busca interativa por novas faixas diretamente na interface.
 
 O grande destaque do projeto é a integração com a **iTunes Search API**, que possibilita a busca em tempo real por músicas digitadas pelo usuário no campo de pesquisa, além da reprodução de trechos de áudio (*previews*) ao clicar nos cards dos álbuns.
 
@@ -38,7 +38,7 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 | :--- | :--- |
 | Deixa Acontecer | Grupo Revelação |
 | Chess | Joyful |
-| Im Still Standing | Taron Egerton |
+| I'm Still Standing | Taron Egerton |
 ---
 
 ## 🛠️ Tecnologias Utilizadas

@@ -55,8 +55,7 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 
 ## 🌎 Teste meu projeto no seu navegador!
 
-- **Spotify Hub
-- :** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://myspotifyhub.netlify.app)
+- **Spotify Hub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://myspotifyhub.netlify.app)
 
 ---
 

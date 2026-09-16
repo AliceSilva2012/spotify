@@ -32,7 +32,7 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 
 ## 🎵 Músicas em Destaque
 
-> Uma seleção especial de exemplificação de músicas carregadas dinamicamente no projeto a partir da iTunes API, prontas para teste e reprodução rápida.
+> Uma seleção especial de músicas carregadas dinamicamente no projeto a partir da iTunes API, prontas para teste e reprodução rápida.
 
 | Música | Artista |
 | :--- | :--- |

@@ -12,7 +12,7 @@
 
 ---
 
-![Interface do Spotify Hub](print.png)
+![Interface do Spotify Hub](https://t2.tudocdn.net/756512?w=719&h=432) 
 
 ## 💻 Sobre o Projeto
 

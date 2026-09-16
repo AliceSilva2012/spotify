@@ -12,6 +12,8 @@
 
 ---
 
+![Interface do Spotify Hub](print.png)
+
 ## 💻 Sobre o Projeto
 
 O **Spotify Hub** é um projeto front-end que simula a interface e a experiência de usuário da plataforma de música Spotify. A aplicação renderiza dinamicamente listas de artistas e álbuns utilizando JavaScript Vanilla, permitindo a exploração de conteúdos musicais e a busca interativa por novas faixas diretamente na interface.

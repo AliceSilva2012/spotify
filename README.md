@@ -1,6 +1,6 @@
 # Spotify Hub🎧🔎
 
-![Interface do Spotify Hub](https://t2.tudocdn.net/756512?w=719&h=432)
+<img width="1440" height="900" alt="spotify" src="https://github.com/user-attachments/assets/4781c4ae-b0aa-4243-96d3-f1b13bc0bf2c">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)

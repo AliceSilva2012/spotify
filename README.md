@@ -1,4 +1,4 @@
-# Spotify Hub🎧🔎
+# Spotify Hub🎧
 
 <img width="1440" height="900" alt="spotify" src="https://github.com/user-attachments/assets/4781c4ae-b0aa-4243-96d3-f1b13bc0bf2c">
 

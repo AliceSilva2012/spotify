@@ -76,7 +76,7 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 
 1. **Clone este repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone git clone https://github.com/AliceSilva2012/spotify.git
    ```
 
 ---

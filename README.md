@@ -63,6 +63,23 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 
 ---
 
+## 🚀 Como Executar o Projeto Localmente
+
+Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga os passos abaixo:
+
+### Pré-requisitos
+- Um navegador web moderno (Google Chrome, Firefox, Edge, etc.).
+- [Git](https://git-scm.com) instalado na máquina.
+- Um editor de código como o [VS Code](https://code.visualstudio.com/) (opcional).
+
+### Passo a Passo
+
+1. **Clone este repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
+---
+
 ## 📁 Estrutura de Arquivos
 
 ```text

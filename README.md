@@ -79,6 +79,15 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
    git clone https://github.com/AliceSilva2012/spotify.git
    ```
 
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd pixelhub
+   ```
+
+3. **Execute a aplicação:**
+   - Dê um duplo clique no arquivo `index.html` para abri-lo no navegador, ou
+   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
+
 ---
 
 ## 📁 Estrutura de Arquivos

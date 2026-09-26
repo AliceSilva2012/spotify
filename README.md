@@ -69,3 +69,4 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 ├── index.html       # Estrutura HTML da aplicação
 ├── styles.css       # Estilização visual, layouts em grid/flexbox e responsividade
 └── scripts.js       # Lógica de renderização, manipulação do DOM e integração com a API do iTunes
+```

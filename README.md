@@ -81,7 +81,7 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 
 2. **Acesse a pasta do projeto:**
    ```bash
-   cd pixelhub
+   cd spotify
    ```
 
 3. **Execute a aplicação:**

@@ -72,7 +72,7 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 - [Git](https://git-scm.com) instalado na máquina.
 - Um editor de código como o [VS Code](https://code.visualstudio.com/) (opcional).
 
-### Passo a Passo
+### ☕ Passo a Passo
 
 1. **Clone este repositório:**
    ```bash

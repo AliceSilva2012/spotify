@@ -92,8 +92,13 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 
 ## 📁 Estrutura de Arquivos
 
-```text
-├── index.html       # Estrutura HTML da aplicação
-├── styles.css       # Estilização visual, layouts em grid/flexbox e responsividade
-└── scripts.js       # Lógica de renderização, manipulação do DOM e integração com a API do iTunes
+```mermaid
+graph TD
+    A[spotify] --> B[index.html]
+    A --> C[styles.css]
+    A --> D[scripts.js]
+
+    style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
 ```

@@ -59,7 +59,7 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 
 > O projeto ainda não é responsivo. Teste em um PC, Notebook ou Tablet! 
 
-- **Spotify Hub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://myspotifyhub.netlify.app)
+- **Spotify Hub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!]([https://myspotifyhub.netlify.app)
 
 ---
 

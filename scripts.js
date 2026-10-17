@@ -3,8 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {name: 'Jorge & Mateus', image: './img/jorgeemateus.jpeg'},
     {name: 'Dua Lipa', image: './img/dualipa.jpeg'},
     {name: 'Grupo Revelação', image: './img/revelacao.png'},
-    {name: 'Turma do Pagode', image: './img/pagode.jpeg'},
-    {name: 'Pharrell Willians', image: './img/pharrell.png'},
+    {name: 'Turma do Pagode', image: './img/pagode.jpeg'}
 ];
 
 const albumsData = [

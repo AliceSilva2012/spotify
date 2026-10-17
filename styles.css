@@ -124,11 +124,45 @@ main {
   justify-content: center;
 }
 
+
 .artists-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /*repetir(repete a mesma coisa pra todos os cards, minimo= 180px, maximo= 1fr)*/
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 24px;
   margin-bottom: 40px;
+}
+
+.artist-card {
+  background-color: #181818;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: 0;
+}
+
+.artist-card:hover {
+  background-color: #282828;
+}
+
+.artist-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.artist-card h3 {
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+
+.artist-card p {
+  font-size: 14px;
+  color: #b7b3b6;
 }
 
 .albums-grid {
@@ -157,23 +191,17 @@ main {
   background-color: #282828;
 }
 
-.artist-card img {
-  width: 100%;
-  border-radius: 20px;
-  margin-bottom: 16px;
-}
-
 .album-card img {
   width: 100%;
   border-radius: 2px;
   margin-bottom: 16px;
 }
 
-.artist-card h3, .album-card h3 {
+.album-card h3 {
   font-size: 16px;
 }
 
-.artist-card p, .album-card p {
+.album-card p {
   font-size: 14px;
   color: #b7b3b6;
 }

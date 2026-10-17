@@ -214,3 +214,206 @@ main {
   font-weight: 600;
   cursor: pointer;
 }
+
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  min-width: 0;
+}
+
+.search-bar input {
+  min-width: 0;
+}
+
+main {
+  min-width: 0;
+  padding-bottom: 110px;
+}
+
+.content {
+  min-width: 0;
+}
+
+.artists-grid {
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(min(150px, 100%), 1fr)
+  );
+}
+
+.albums-grid {
+  grid-auto-columns: minmax(0, 180px);
+}
+
+.banner {
+  gap: 16px;
+  z-index: 10;
+}
+
+.banner > div {
+  min-width: 0;
+}
+
+.banner h2 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.banner p {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    width: 240px;
+    padding: 12px;
+    padding-bottom: 90px;
+  }
+
+  main {
+    padding: 18px;
+  }
+
+  .artists-grid {
+    gap: 16px;
+  }
+
+  .albums-grid {
+    gap: 16px;
+    grid-auto-columns: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    height: auto;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    padding: 16px 12px 150px;
+    overflow-x: hidden;
+  }
+
+  .search-bar {
+    max-width: none;
+    padding: 12px;
+  }
+
+  .search-bar input {
+    font-size: 14px;
+  }
+
+  .content {
+    margin-top: 28px;
+  }
+
+  .content h2,
+  main section h2 {
+    font-size: 20px;
+  }
+
+  .artists-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .artist-card,
+  .album-card {
+    min-width: 0;
+    padding: 8px;
+    overflow-wrap: anywhere;
+  }
+
+  .artist-card img,
+  .album-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .artist-card h3,
+  .album-card h3 {
+    font-size: 14px;
+  }
+
+  .artist-card p,
+  .album-card p {
+    font-size: 12px;
+  }
+
+  .albums-grid {
+    grid-auto-columns: 145px;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .banner {
+    padding: 12px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .banner > div {
+    flex: 1;
+  }
+
+  .banner h2 {
+    font-size: 12px;
+  }
+
+  .banner p {
+    font-size: 10px;
+    line-height: 1.4;
+  }
+
+  .banner a {
+    flex-shrink: 0;
+  }
+
+  .banner button {
+    padding: 10px 12px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 360px) {
+  .banner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .banner a,
+  .banner button {
+    width: 100%;
+  }
+
+  .banner button {
+    white-space: normal;
+  }
+
+  .albums-grid {
+    grid-auto-columns: 130px;
+  }
+}
+

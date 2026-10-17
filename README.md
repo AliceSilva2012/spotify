@@ -57,7 +57,7 @@ O grande destaque do projeto é a integração com a **iTunes Search API**, que 
 
 ## 🌎 Teste meu projeto no seu navegador!
 
-> O projeto ainda não é responsivo. Teste em um PC, Notebook ou Tablet! 
+> O projeto segue com demais atualizações e melhorias mas é 100% responsivo. Teste em um PC, Notebook ou Tablet! 
 
 - **Spotify Hub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](alicesilva2012.github.io/spotify/)
 

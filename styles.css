@@ -362,33 +362,23 @@ main {
   .artists-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
-    margin-bottom: 28px;
   }
 
-  .artist-card,
-  .album-card {
-    min-width: 0;
+  .artist-card {
     padding: 8px;
-    overflow-wrap: anywhere;
   }
 
-  .artist-card img,
-  .album-card img {
-    width: 100%;
-    height: auto;
+  .artist-card img {
     margin-bottom: 10px;
   }
 
-  .artist-card h3,
-  .album-card h3 {
+  .artist-card h3 {
     font-size: 14px;
   }
 
-  .artist-card p,
-  .album-card p {
+  .artist-card p {
     font-size: 12px;
   }
-
   .albums-grid {
     grid-auto-columns: 145px;
     gap: 12px;

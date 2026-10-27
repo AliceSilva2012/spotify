@@ -380,7 +380,6 @@ main {
     font-size: 12px;
   }
   .albums-grid {
-    grid-auto-columns: 145px;
     gap: 12px;
     margin-bottom: 28px;
   }

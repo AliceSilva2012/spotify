@@ -16,9 +16,16 @@ body {
   color: #fff;
 }
 
+html, body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden; /* Impede que qualquer coisa vaze para o lado */
+}
+
 .container {
-  display: flex;
-  height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .sidebar {
@@ -129,6 +136,8 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 24px;
+  width: 100%;
+  min-width: 0;
   margin-bottom: 40px;
 }
 
@@ -165,14 +174,15 @@ main {
   color: #b7b3b6;
 }
 
-..albums-grid {
-  display: grid;
-  grid-auto-flow: column; 
-  grid-auto-columns: 180px; /* Mantém o card com largura fixa de 180px */
+.albums-grid {
+  display: flex;
   gap: 24px;
-  overflow-x: auto; 
+  width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
   margin-bottom: 40px;
-  padding-bottom: 16px; 
+  padding-bottom: 16px;
 }
 
 .artist-card, .album-card {
@@ -182,9 +192,8 @@ main {
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  flex: 0 0 170px; /* Trava o tamanho fixo no eixo X para não esticarem */
+  min-width: 0;
 }
 
 .artist-card:hover, .album-card:hover {
@@ -224,6 +233,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 8px 14px;
+  z-index: 10;
 }
 
 .banner h3 {
@@ -311,8 +321,13 @@ main {
   }
 
   main {
-    padding: 18px;
-  }
+  flex-grow: 1;
+  min-width: 0; /* IMPRESCINDÍVEL: Impede o flex item de estourar a largura */
+  padding: 24px;
+  padding-bottom: 110px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
   .artists-grid {
     gap: 16px;
@@ -351,8 +366,10 @@ main {
   }
 
   .content {
-    margin-top: 28px;
-  }
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
 
   .content h2,
   main section h2 {

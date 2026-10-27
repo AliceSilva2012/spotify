@@ -165,14 +165,14 @@ main {
   color: #b7b3b6;
 }
 
-.albums-grid {
+..albums-grid {
   display: grid;
-  grid-auto-flow: column; /* Faz os cards irem para a direita, em vez de para baixo */
-  grid-auto-columns: 180px; /* Fixa a largura de cada card */
+  grid-auto-flow: column; 
+  grid-auto-columns: 180px; /* Mantém o card com largura fixa de 180px */
   gap: 24px;
-  overflow-x: auto; /* Cria a barra de rolagem horizontal mágica! */
+  overflow-x: auto; 
   margin-bottom: 40px;
-  padding-bottom: 16px; /* Dá um espacinho para a barra de rolagem não cortar os cards */
+  padding-bottom: 16px; 
 }
 
 .artist-card, .album-card {

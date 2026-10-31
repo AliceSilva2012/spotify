@@ -7,7 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![iTunes API](https://img.shields.io/badge/iTunes_API-FA243C?style=for-the-badge&logo=apple-music&logoColor=white)
 
-> Uma aplicação web interativa inspirada no design do Spotify que consome dados locais e a API do iTunes para exibir álbuns, artistas populares e reproduzir prévias de músicas em tempo real.
+> Uma aplicação web interativa inspirada no design do Spotify que consome dados locais e a API do iTunes para exibir álbuns, artistas populares e reproduzir prévias de músicas em tempo real (a API disponibiliza apenas 30 segundos de música).
 
 > [!NOTE]
 > **🚧 Projeto em Desenvolvimento:** Esta não é a versão final do projeto. Novas funcionalidades, melhorias de design e ajustes de performance estão sendo implementados continuamente. 

@@ -1,6 +1,6 @@
 # 🎵 Spotify Clone — Web Player
 
-<img width="1440" alt="Interface do Spotify Clone" src="./img/banner-preview.png" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5dbd3e10-2709-4489-a151-01ce8d47fd99" />
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)

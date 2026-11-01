@@ -1,4 +1,4 @@
-# 🎵 Spotify Clone — Web Player
+# Spotify Web 🎵🎧
 
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5dbd3e10-2709-4489-a151-01ce8d47fd99" />
 
@@ -40,6 +40,12 @@ A aplicação exibe playlists locais e populares organizadas em listas e carross
 - **JavaScript (Vanilla ES6+):** Manipulação dinâmica do DOM, consumo de API assíncrona (`async/await` / `fetch`), codificação de busca (`encodeURIComponent`) e controle do elemento `Audio()`.
 - **API do iTunes:** Integração para busca de faixas, metadados e prévias musicais.
 - **Iconify:** Biblioteca de ícones vetoriais modernos.
+
+---
+
+## 🌎 Teste meu projeto no seu navegador!
+
+- **Spotify Web:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/spotify/)
 
 ---
 

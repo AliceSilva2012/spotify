@@ -78,14 +78,12 @@ graph TD
     A[spotify] --> B[index.html]
     A --> C[styles.css]
     A --> D[scripts.js]
-    A --> E[README.md]
     A --> F[.gitignore]
     A --> G[img/]
 
     style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
     style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
     style D fill:#f7df1e,stroke:#fff,stroke-width:2px,color:#000
-    style E fill:#555,stroke:#fff,stroke-width:2px,color:#fff
     style F fill:#333,stroke:#fff,stroke-width:2px,color:#fff
     style G fill:#1db954,stroke:#fff,stroke-width:2px,color:#fff
 ```

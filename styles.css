@@ -391,118 +391,6 @@ html, body {
   white-space: nowrap;
 }
 
-@media (max-width: 600px) {
-  .sidebar {
-    display: none;
-  }
-
-  .top-nav {
-    padding: 8px 12px;
-    height: 56px;
-  }
-
-  .top-nav-left {
-    gap: 6px;
-    flex: 1;
-    min-width: 0; /* Impede que o container quebre o layout */
-  }
-
-  .logo i {
-    font-size: 26px !important;
-  }
-
-  .home-btn {
-    width: 32px;
-    height: 32px;
-  }
-
-  .home-btn i {
-    font-size: 18px !important;
-  }
-
-  .search-bar {
-    padding: 6px 10px;
-    max-width: 100%;
-  }
-
-  .search-bar input {
-    font-size: 12px;
-    margin: 0 6px;
-  }
-
-  .search-icon, .browse-icon {
-    font-size: 16px !important;
-  }
-
-  .btn-login {
-    padding: 6px 14px;
-    font-size: 12px;
-  }
-  
-  .container {
-    padding-top: 56px;
-    padding-bottom: 90px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .main-content {
-    padding: 16px 12px;
-    border-radius: 0;
-    height: calc(100vh - 130px);
-  }
-
-  .albums-grid {
-    gap: 12px;
-    padding-bottom: 8px;
-  }
-
-  .albums-grid .album-card {
-    flex: 0 0 135px;
-    width: 135px;
-    min-width: 135px;
-    padding: 10px;
-  }
-
-  .album-card h3, .artist-card h3 {
-    font-size: 12px;
-  }
-
-  .album-card p, .artist-card p {
-    font-size: 11px;
-  }
-
-  .artists-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-  }
-
-  .artist-card {
-    padding: 10px;
-  }
-
-  .footer-banner {
-    padding: 8px 12px;
-  }
-
-  .banner-title {
-    font-size: 11px;
-  }
-
-  .banner-subtitle {
-    font-size: 10px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden; 
-  }
-
-  .btn-subscribe {
-    padding: 8px 14px;
-    font-size: 11px;
-  }
-}
-
 @media (max-width: 900px) {
   .sidebar {
     width: 240px;
@@ -513,7 +401,144 @@ html, body {
   .sidebar {
     display: none;
   }
-  .top-nav-right .nav-link {
+
+  .top-nav-right .nav-link,
+  .top-nav-right .divider {
     display: none;
+  }
+
+  .main-content {
+    height: calc(100vh - 120px);
+  }
+}
+
+@media (max-width: 600px) {
+  .top-nav {
+    padding: 8px;
+    height: 56px;
+  }
+
+  .top-nav-left {
+    gap: 6px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo i {
+    font-size: 24px !important;
+  }
+
+  .home-btn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+  }
+
+  .home-btn i {
+    font-size: 16px !important;
+  }
+
+  .search-bar {
+    padding: 6px 8px;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .search-bar input {
+    font-size: 11px;
+    margin: 0 4px;
+    width: 100%;
+  }
+
+  .browse-icon {
+    display: none;
+  }
+
+  .btn-login {
+    padding: 6px 12px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .container {
+    padding-top: 56px;
+    padding-bottom: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    min-height: calc(100vh - 56px);
+  }
+
+  .main-content {
+    padding: 12px 10px;
+    border-radius: 0;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .albums-grid {
+    gap: 10px;
+    padding-bottom: 8px;
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .albums-grid .album-card {
+    flex: 0 0 125px;
+    width: 125px;
+    min-width: 125px;
+    padding: 8px;
+  }
+
+  .album-card h3, .artist-card h3 {
+    font-size: 11px;
+  }
+
+  .album-card p, .artist-card p {
+    font-size: 10px;
+  }
+
+  .artists-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .artist-card {
+    padding: 8px;
+  }
+
+  .footer-banner {
+    padding: 6px 10px;
+    gap: 8px;
+  }
+
+  .banner-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .banner-title {
+    font-size: 10px;
+  }
+
+  .banner-subtitle {
+    font-size: 9px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.2;
+  }
+
+  .btn-subscribe {
+    padding: 6px 10px;
+    font-size: 10px;
+    flex-shrink: 0;
   }
 }

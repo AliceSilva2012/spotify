@@ -19,7 +19,7 @@
 
 O **Spotify Web** é uma aplicação web desenvolvida para recriar a experiência visual e funcional do player oficial do Spotify. 
 
-A aplicação exibe playlists locais e populares organizadas em listas e carrosséis com rolagem horizontal no eixo X, permitindo pesquisar qualquer música, artista ou trilha sonora dinamicamente. Integra a **API REST do iTunes** para buscar capas em alta resolução (600x600) e prévias de áudio oficiais de 30 segundos com controle de reprodução instantâneo.
+A aplicação exibe playlists locais e populares organizadas em listas e carrosséis com rolagem horizontal no eixo X, permitindo pesquisar qualquer música, artista ou trilha sonora dinamicamente. Integra a **API REST do iTunes** para buscar capas em alta resolução (600x600) e prévias de áudio oficiais de 30 segundos com controle de reprodução instantâneo (ao clicar no card).
 
 ---
 

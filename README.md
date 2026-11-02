@@ -11,7 +11,7 @@
 > Uma recriação interativa e moderna da interface do Spotify Web, com busca dinâmica de músicas em tempo real e reprodução de prévias de áudio de 30 segundos via API do iTunes.
 
 > [!NOTE]
-> **🚧 Projeto em Desenvolvimento:** Layout atualizado para o design moderno do Spotify (com suporte a *carrossel horizontal no eixo X* para músicas, cards de artistas populares e busca inteligente com *debounce*).
+> **🚧 Projeto em Desenvolvimento:** O projeto segue em desenvolvimento em relação à interatividade. Novas funcionalidades e melhorias de performance estão sendo implementadas continuamente. 
 
 ---
 

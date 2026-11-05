@@ -8,7 +8,7 @@
 ![iTunes API](https://img.shields.io/badge/iTunes_API-FC3C44?style=for-the-badge&logo=apple-music&logoColor=white)
 ![Iconify](https://img.shields.io/badge/Iconify-1769AA?style=for-the-badge&logo=iconify&logoColor=white)
 
-> Uma recriação interativa e moderna da interface do Spotify Web, com busca dinâmica de músicas em tempo real e reprodução de prévias de áudio de 30 segundos via API do iTunes.
+> Uma recriação interativa e moderna da interface do Spotify, com busca dinâmica de músicas em tempo real e reprodução de prévias de áudio de 30 segundos via API do iTunes.
 
 > [!NOTE]
 > **🚧 Projeto em Desenvolvimento:** O projeto segue em desenvolvimento em relação à interatividade. Novas funcionalidades e melhorias de performance estão sendo implementadas continuamente. 

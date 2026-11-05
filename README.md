@@ -27,7 +27,7 @@ A aplicação exibe playlists locais e populares organizadas em listas e carross
 
 - **Busca Dinâmica em Tempo Real:** Pesquisa de faixas diretamente na API do iTunes com mecanismo de *debounce* (500ms) para evitar chamadas excessivas durante a digitação.
 - **Carrossel Horizontal (Eixo X):** Seção de músicas em fileira única com rolagem lateral suave e responsiva.
-- **Player de Áudio Integrado:** RReproduçã de trechos de áudio de 30 segundos ao clicar nos cards.
+- **Player de Áudio Integrado:** Reprodução de trechos de áudio de 30 segundos ao clicar nos cards.
 - **Interface Fiel ao Spotify:** Header superior com busca integrada, sidebar com a seção de biblioteca, tema escuro e cards estilizados.
 - **Design Responsivo:** Adaptação completa para desktop, tablets e dispositivos móveis.
 

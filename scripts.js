@@ -41,7 +41,14 @@ document.addEventListener('DOMContentLoaded', () => {
   { name: 'Come and Get Your Love', artist: 'Redbone', image: './img/redbone.png' },
   { name: 'September', artist: 'Earth, Wind & Fire', image: './img/september.png' },
   { name: 'Sunflower', artist: 'Post Malone & Swae Lee', image: './img/sunflower.png' },
-  { name: 'I Will Survive', artist: 'Demi Lovato', image: './img/survive.png' }
+  { name: 'I Will Survive', artist: 'Demi Lovato', image: './img/survive.png' },
+  { name: 'Her (feat. Annika Wells & Kaden Hawke)', artist: 'JVKE, Kaden Hawke, Annika Wells', image: './img/her.png' },
+  { name: 'Everybody Wants to Rule the World', artist: 'Tears for Fears', image: './img/everybody.png' },
+  { name: 'Monsters, Inc.', artist: 'Rabdy Newman', image: './img/monsters.png' },
+  { name: 'Snowman', artist: 'Sia', image: './img/snowman.png' },
+  { name: 'O Extraordinário', artist: 'Jotta A', image: './img/extraordinario.png' },
+  { name: 'All I Want for Christmas Is You', artist: 'Mariah Carey', image: './img/christmas.png' },
+  { name: 'Jingle Bell Rock', artist: 'Bobby Helms', image: './img/jingle.png' }
 ];
 
   const artistsGrid = document.querySelector('.artists-grid');

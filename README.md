@@ -7,6 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![iTunes API](https://img.shields.io/badge/iTunes_API-FC3C44?style=for-the-badge&logo=apple-music&logoColor=white)
 ![Iconify](https://img.shields.io/badge/Iconify-1769AA?style=for-the-badge&logo=iconify&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Acessar_Player-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://alicesilva2012.github.io/spotify/)
 
 > Uma recriação interativa e moderna da interface do Spotify, com busca dinâmica de músicas em tempo real e reprodução de prévias de áudio de 30 segundos via API do iTunes.
 
@@ -54,6 +55,7 @@ A aplicação exibe playlists locais e populares organizadas em listas e carross
 ### Pré-requisitos
 - Um navegador web atualizado (Google Chrome, Microsoft Edge, Safari, Firefox, etc.).
 - Extensão **Live Server** no VS Code (opcional, mas recomendado).
+- [Git](https://git-scm.com) instalado na máquina.
 
 ### ☕ Passo a Passo
 
@@ -66,8 +68,8 @@ A aplicação exibe playlists locais e populares organizadas em listas e carross
    cd spotify
    ```
 3. **Execute a aplicação:**
-   - Abra o arquivo index.html diretamente no seu navegador OU
-   - No VS Code, clique com o botão direito no index.html e selecione **Open with Live Server**.
+   - Abra o arquivo `index.html` diretamente no seu navegador OU
+   - No VS Code, clique com o botão direito no `index.html` e selecione **Open with Live Server**.
 
 ---
 
